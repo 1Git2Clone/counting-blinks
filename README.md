@@ -48,7 +48,7 @@ For reference, it should look something similar to the following:
 
 Showcase vid:
 
-![![](https://github.com/1Kill2Steal/counting-blinks/blob/main/assets/preview-vid.gif)](https://github.com/1Kill2Steal/counting-blinks/blob/main/assets/preview-vid.mp4(
+![](https://github.com/1Kill2Steal/counting-blinks/blob/main/assets/preview-vid.gif)
 
 ## Code Build Instructions
 
