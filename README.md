@@ -2,7 +2,49 @@
 
 Rust project for the _Arduino Nano_.
 
-## Build Instructions
+## Prerequisites
+
+Arduino nano.
+
+A breadboard (at least from a1-j30 which should be the smallest one).
+
+4 jumper wires (male to male).
+
+3 resistors (I'm using metal film blue ones).
+
+3 LED diodes (the colors don't matter).
+
+## Example Board Layout
+
+Arduino from d30 to j16.
+
+Jumper cable at GND (in this case: d19 or j17) to negative column at the j column side.
+
+3 Jumper cables:
+- d30-a1 (pin.d12)
+- d29-a5 (pin.d11)
+- d28-a9 (pin.d10)
+
+3 Resistors:
+- b1-i9
+- b5-i5
+- b9-j9
+
+Some vocabulary for the LEDs:
+- Anode - the long end (positive charged): the part where oxidization happens.
+- Cathode - the short part (negative charged): the part where reduction happens.
+
+3 LEDs:
+- Anode: j1 | Cathode: at the negative row
+- Anode: j5 | Cathode: at the negative row
+- Anode: j9 | Cathode: at the negative row
+
+> [!NOTE]
+> The position of the cathodes on the row doesn't matter as long as they're on the row where the GND jump wire is connected.
+
+![Example diagram](https://www.makerguides.com/wp-content/uploads/2024/04/image-33.png)
+
+## Code Build Instructions
 
 1. Install prerequisites as described in the [`avr-hal` README] (`avr-gcc`, `avr-libc`, `avrdude`, [`ravedude`]).
 
