@@ -46,10 +46,6 @@ Some vocabulary for the LEDs:
 
 For reference, it should look something similar to the following:
 
-![Example diagram](https://www.makerguides.com/wp-content/uploads/2024/04/image-33.png)
-
-Showcase vid:
-
 [![Preview vid](https://github.com/1Kill2Steal/counting-blinks/blob/main/assets/preview-vid.gif)](https://github.com/1Kill2Steal/counting-blinks/blob/main/assets/preview-vid.mp4)
 
 ## Code Build Instructions
