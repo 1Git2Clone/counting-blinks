@@ -12,9 +12,9 @@ fn main() -> ! {
     let mut second_led = pins.d11.into_output();
     let mut third_led = pins.d12.into_output();
 
-    first_led.1.set_low();
-    second_led.1.set_low();
-    third_led.1.set_low();
+    first_led.set_low();
+    second_led.set_low();
+    third_led.set_low();
 
     let mut counter: u8 = 0;
 
