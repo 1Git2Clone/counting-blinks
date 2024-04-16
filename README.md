@@ -46,6 +46,10 @@ For reference, it should look something similar to the following:
 
 ![Example diagram](https://www.makerguides.com/wp-content/uploads/2024/04/image-33.png)
 
+Showcase vid:
+
+https://github.com/1Kill2Steal/counting-blinks/blob/main/assets/preview-vid.mp4
+
 ## Code Build Instructions
 
 1. Install prerequisites as described in the [`avr-hal` README] (`avr-gcc`, `avr-libc`, `avrdude`, [`ravedude`]).
