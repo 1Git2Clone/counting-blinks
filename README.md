@@ -6,6 +6,8 @@ Rust project for the _Arduino Nano_.
 
 Arduino nano.
 
+USB type A (or whatever type your sender accepts) to Micro USB or USB type C (depending on your Arduino Nano variant)
+
 A breadboard (at least from a1-j30 which should be the smallest one).
 
 4 jumper wires (male to male).
