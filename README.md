@@ -37,9 +37,9 @@ Some vocabulary for the LEDs:
 - Cathode - the short part (negative charged): the part where reduction happens.
 
 3 LEDs:
-- Anode: j1 | Cathode: at the negative row
-- Anode: j5 | Cathode: at the negative row
-- Anode: j9 | Cathode: at the negative row
+- Anode: j1 | Cathode: at the negative column
+- Anode: j5 | Cathode: at the negative column
+- Anode: j9 | Cathode: at the negative column
 
 > [!NOTE]
 > The position of the cathodes on the row doesn't matter as long as they're on the column where the GND jump wire is connected.
