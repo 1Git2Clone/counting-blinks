@@ -42,7 +42,7 @@ Some vocabulary for the LEDs:
 - Anode: j9 | Cathode: at the negative row
 
 > [!NOTE]
-> The position of the cathodes on the row doesn't matter as long as they're on the row where the GND jump wire is connected.
+> The position of the cathodes on the row doesn't matter as long as they're on the column where the GND jump wire is connected.
 
 For reference, it should look something similar to the following:
 
