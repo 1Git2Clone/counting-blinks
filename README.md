@@ -42,6 +42,8 @@ Some vocabulary for the LEDs:
 > [!NOTE]
 > The position of the cathodes on the row doesn't matter as long as they're on the row where the GND jump wire is connected.
 
+For reference, it should look something similar to the following:
+
 ![Example diagram](https://www.makerguides.com/wp-content/uploads/2024/04/image-33.png)
 
 ## Code Build Instructions
