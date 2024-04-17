@@ -1,6 +1,6 @@
 # Counting blinks
 
-Rust project for the _Arduino Nano_.
+Rust project for the _Arduino Nano_ that implements binary counting with LEDs.
 
 ## Prerequisites
 
