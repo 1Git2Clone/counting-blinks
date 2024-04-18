@@ -26,26 +26,17 @@ fn main() -> ! {
         }
 
         // Match bitwise operations on the leds using their binary index.
-        match counter & 1 {
-            0 => first_led.set_low(),
-            1 => first_led.set_high(),
-            _ => {
-                panic!("You shouldn't have a bitwise operation with the index return something other than 0 or 1");
-            }
+        match (counter & 1) == 0 {
+            true => first_led.set_low(),
+            false => first_led.set_high(),
         }
-        match (counter >> 1) & 1 {
-            0 => second_led.set_low(),
-            1 => second_led.set_high(),
-            _ => {
-                panic!("You shouldn't have a bitwise operation with the index return something other than 0 or 1");
-            }
+        match ((counter >> 1) & 1) == 0 {
+            true => second_led.set_low(),
+            false => second_led.set_high(),
         }
-        match (counter >> 2) & 1 {
-            0 => third_led.set_low(),
-            1 => third_led.set_high(),
-            _ => {
-                panic!("You shouldn't have a bitwise operation with the index return something other than 0 or 1");
-            }
+        match ((counter >> 2) & 1) == 0 {
+            true => third_led.set_low(),
+            false => third_led.set_high(),
         }
 
         // Wait before iterating again.
