@@ -53,7 +53,7 @@ Some vocabulary for the LEDs:
 
 For reference, it should look something similar to the following:
 
-[![Preview vid](https://gitlab.com/1k2s/counting-blinks/blob/main/assets/preview-vid.gif)](https://github.com/1Kill2Steal/counting-blinks/blob/main/assets/preview-vid.gif)
+[![Preview vid](https://gitlab.com/1k2s/counting-blinks/blob/main/assets/preview-vid.gif)](https://gitlab.com/1k2s/counting-blinks/blob/main/assets/preview-vid.gif)
 
 ## Code Build Instructions
 
