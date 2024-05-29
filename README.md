@@ -6,7 +6,8 @@ Rust project for the _Arduino Nano_ that implements binary counting with LEDs.
 
 Arduino nano.
 
-USB type A (or whatever type your sender accepts) to Micro USB or USB type C (depending on your Arduino Nano variant)
+USB type A (or whatever type your sender accepts) to Micro USB or USB type C
+(depending on your Arduino Nano variant)
 
 A breadboard (at least from a1-j30 which should be the smallest one).
 
@@ -20,37 +21,44 @@ A breadboard (at least from a1-j30 which should be the smallest one).
 
 Arduino from d30 to j16.
 
-Jumper cable at GND (in this case: d19 or j17) to negative column at the j column side.
+Jumper cable at GND (in this case: d19 or j17) to negative column at the j
+column side.
 
 3 Jumper cables:
+
 - d30-a1 (pin.d12)
 - d29-a5 (pin.d11)
 - d28-a9 (pin.d10)
 
 3 Resistors:
+
 - b1-i9
 - b5-i5
 - b9-j9
 
 Some vocabulary for the LEDs:
+
 - Anode - the long end (positive charged): the part where oxidization happens.
 - Cathode - the short part (negative charged): the part where reduction happens.
 
 3 LEDs:
+
 - Anode: j1 | Cathode: at the negative column
 - Anode: j5 | Cathode: at the negative column
 - Anode: j9 | Cathode: at the negative column
 
 > [!NOTE]
-> The position of the cathodes on the negative column doesn't matter as long as they're on the column where the GND jump wire is connected.
+> The position of the cathodes on the negative column doesn't matter as long as
+> they're on the column where the GND jump wire is connected.
 
 For reference, it should look something similar to the following:
 
-[![Preview vid](https://github.com/1Kill2Steal/counting-blinks/blob/main/assets/preview-vid.gif)](https://github.com/1Kill2Steal/counting-blinks/blob/main/assets/preview-vid.gif)
+[![Preview vid](https://gitlab.com/1k2s/counting-blinks/blob/main/assets/preview-vid.gif)](https://github.com/1Kill2Steal/counting-blinks/blob/main/assets/preview-vid.gif)
 
 ## Code Build Instructions
 
-1. Install prerequisites as described in the [`avr-hal` README] (`avr-gcc`, `avr-libc`, `avrdude`, [`ravedude`]).
+1. Install prerequisites as described in the [`avr-hal` README] (`avr-gcc`,
+   `avr-libc`, `avrdude`, [`ravedude`]).
 
 2. Run `cargo build` to build the firmware.
 
